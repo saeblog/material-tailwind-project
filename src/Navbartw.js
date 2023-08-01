@@ -32,7 +32,7 @@ import { Notif } from "./Notif";
 // profile menu component
 const profileMenuItems = [
   {
-    label: "My Profile",
+    label: "My Profile", 
     icon: UserCircleIcon,
   },
   {
