@@ -11,6 +11,7 @@ import {
   Avatar,
   Card,
   IconButton,
+  Switch,
 } from "@material-tailwind/react";
 import {
   CubeTransparentIcon,
@@ -25,6 +26,8 @@ import {
   RocketLaunchIcon,
   Bars2Icon,
 } from "@heroicons/react/24/outline";
+
+import { Notif } from "./Notif";
  
 // profile menu component
 const profileMenuItems = [
@@ -56,8 +59,14 @@ function ProfileMenu() {
   const closeMenu = () => setIsMenuOpen(false);
  
   return (
+    
     <Menu open={isMenuOpen} handler={setIsMenuOpen} placement="bottom-end">
+
+      <Switch />
+      <Notif />
+     
       <MenuHandler>
+
         <Button
           variant="text"
           color="blue-gray"
@@ -68,7 +77,7 @@ function ProfileMenu() {
             size="sm"
             alt="tania andrew"
             className="border border-blue-500 p-0.5"
-            src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80"
+            src="https://www.sae.icu/src/img/avatar100x100.png"
           />
           <ChevronDownIcon
             strokeWidth={2.5}
@@ -78,6 +87,7 @@ function ProfileMenu() {
           />
         </Button>
       </MenuHandler>
+
       <MenuList className="p-1">
         {profileMenuItems.map(({ label, icon }, key) => {
           const isLastItem = key === profileMenuItems.length - 1;
@@ -134,7 +144,7 @@ function NavListMenu() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
  
   const renderItems = navListMenuItems.map(({ title, description }) => (
-    <a href="#" key={title}>
+    <a href="/#" key={title}>
       <MenuItem>
         <Typography variant="h6" color="blue-gray" className="mb-1">
           {title}
@@ -189,17 +199,20 @@ function NavListMenu() {
 // nav list component
 const navListItems = [
   {
-    label: "Account",
-    icon: UserCircleIcon,
-  },
-  {
-    label: "Blocks",
-    icon: CubeTransparentIcon,
-  },
-  {
-    label: "Docs",
+    label: "Home",
     icon: CodeBracketSquareIcon,
   },
+ 
+  {
+    label: "About",
+    icon: CubeTransparentIcon,
+  },
+
+  {
+    label: "Contact",
+    icon: UserCircleIcon,
+  },
+  
 ];
  
 function NavList() {
@@ -240,12 +253,15 @@ export function Navbartw() {
   return (
     <Navbar className="mx-auto max-w-screen-xl p-2 lg:rounded-full lg:pl-6">
       <div className="relative mx-auto flex items-center text-blue-gray-900">
+
+      <img src="/modie.png" alt="React Logo" className="ml-4 h-7 w-7" />
+
         <Typography
           as="a"
           href="#"
           className="mr-4 ml-2 cursor-pointer py-1.5 font-medium"
         >
-          Material Tailwind
+          <strong>Modie UI React</strong>
         </Typography>
         <div className="absolute top-2/4 left-2/4 hidden -translate-x-2/4 -translate-y-2/4 lg:block">
           <NavList />
