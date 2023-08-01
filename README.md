@@ -128,7 +128,7 @@ At this point, the `gh-pages` npm package is installed on your computer and the 
     {
       "name": "my-app",
       "version": "0.1.0",
-    + "homepage": "https://saeblog.github.io/material-tailwind-project",
+      "homepage": "https://saeblog.github.io/material-tailwind-project",
       "private": true,
     ```
 At this point, the React app's `package.json` file includes a property named `homepage`.
