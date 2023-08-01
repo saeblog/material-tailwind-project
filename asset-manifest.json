@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/material-tailwind-project/static/css/main.6d4f4c07.css",
+    "main.js": "/material-tailwind-project/static/js/main.1978e788.js",
+    "index.html": "/material-tailwind-project/index.html",
+    "main.6d4f4c07.css.map": "/material-tailwind-project/static/css/main.6d4f4c07.css.map",
+    "main.1978e788.js.map": "/material-tailwind-project/static/js/main.1978e788.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d4f4c07.css",
+    "static/js/main.1978e788.js"
+  ]
+}
