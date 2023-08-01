@@ -1,15 +1,13 @@
 {
   "files": {
-    "main.css": "/material-tailwind-project/static/css/main.e6c13ad2.css",
-    "main.js": "/material-tailwind-project/static/js/main.f29e3a69.js",
-    "static/js/787.361e4b6c.chunk.js": "/material-tailwind-project/static/js/787.361e4b6c.chunk.js",
+    "main.css": "/material-tailwind-project/static/css/main.1179ebcf.css",
+    "main.js": "/material-tailwind-project/static/js/main.e05b49cc.js",
     "index.html": "/material-tailwind-project/index.html",
-    "main.e6c13ad2.css.map": "/material-tailwind-project/static/css/main.e6c13ad2.css.map",
-    "main.f29e3a69.js.map": "/material-tailwind-project/static/js/main.f29e3a69.js.map",
-    "787.361e4b6c.chunk.js.map": "/material-tailwind-project/static/js/787.361e4b6c.chunk.js.map"
+    "main.1179ebcf.css.map": "/material-tailwind-project/static/css/main.1179ebcf.css.map",
+    "main.e05b49cc.js.map": "/material-tailwind-project/static/js/main.e05b49cc.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.f29e3a69.js"
+    "static/css/main.1179ebcf.css",
+    "static/js/main.e05b49cc.js"
   ]
 }
